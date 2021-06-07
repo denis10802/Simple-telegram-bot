@@ -4,7 +4,7 @@ use Telegram\Bot\Api;
 
 
 
- $telegram = new Api('1741243408:AAHpK6cNA5ettpQ421uS88Wy7YpmILHGoNA');
+ $telegram = new Api('MY_API_KEY_BOT');
  $result = $telegram->getWebhookUpdates();
 
 $text = $result["message"]["text"]; //Текст сообщения
